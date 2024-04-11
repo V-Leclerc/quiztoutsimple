@@ -1,0 +1,12 @@
+#bootstrap-overrides {
+    background-image: linear-gradient(90deg, #fff7ad, #ffa9f9);
+}
+
+#question {
+    color: #004aad;
+    font-size: 3em;
+}
+
+.custom-btn {
+    font-weight: bold;
+}
