@@ -818,7 +818,7 @@ const masterQuestion = [
             },
             {
                 answer: 3,
-                text: "2025",
+                text: "1997",
                 goodAnswer: false
             }
         ]
@@ -858,7 +858,7 @@ const masterQuestion = [
             },
             {
                 answer: 3,
-                text: "1487",
+                text: "1878",
                 goodAnswer: false
             }
         ]

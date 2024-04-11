@@ -55,7 +55,8 @@ const showingQuestion = () => {
         document.getElementById("show-answer").addEventListener("click", oneWrong);
     } else if (actualMenu === coupMaitre) {
         // Ici, cliquer sur le bouton pour afficher la réponse va bloquer les autres propositions et afficher le vrai texte de la troisième proposition
-        document.getElementById("show-answer").addEventListener("click", () => {
+        document.getElementById("show-answer").addEventListener("click", (e) => {
+            e.preventDefault();
             document.getElementById("3").textContent = `${actualMenu[questionId].answerList[2].text}`;
             document.querySelectorAll(".answer-button").forEach(button => button.disabled = true);
             document.getElementById("show-answer").addEventListener("click", showingAnswer);
