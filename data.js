@@ -15,7 +15,7 @@ const questionList = [
         ]
     },
     {
-        question: "Comment appelle-t'on les mots avec une même définition ?",
+        question: "Comment appelle-t'on les mots avec le même sens ?",
         answerList: [
             {
                 answer: 1,
@@ -555,7 +555,7 @@ const qcm = [
             },
             {
                 answer: 3,
-                text: "Salut les copains",
+                text: "La trompe d'eustache",
                 goodAnswer: true
             },
             {
@@ -650,7 +650,7 @@ const qcm = [
             },
             {
                 answer: 6,
-                text: "Gengis",
+                text: "Gengis KHAN",
                 goodAnswer: true
             },
             {
@@ -666,7 +666,7 @@ const qcm = [
             {
                 answer: 1,
                 text: "Valence",
-                goodAnswer: false
+                goodAnswer: true
             },
             {
                 answer: 2,
@@ -696,7 +696,7 @@ const qcm = [
             {
                 answer: 7,
                 text: "Faro",
-                goodAnswer: true
+                goodAnswer: false
             }
         ]
     },
